@@ -12,5 +12,5 @@ interface Driveable {
   reverse(): void;
 }
 
-// export the Driveable interface
+
 export default Driveable;

@@ -174,10 +174,10 @@ class Cli {
                     break;
                 case 'Select or create another vehicle':
                     this.startCli();
-                    return; // End the function to prevent calling performActions again
+                    return; 
                 case 'Exit':
                     this.exit = true;
-                    return; // End the function to prevent calling performActions again
+                    return; 
             }
             if (!this.exit) {
                 this.performActions();

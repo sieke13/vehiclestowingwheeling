@@ -212,7 +212,7 @@ class Cli {
                     if (selectedVehicle instanceof Truck) {
                         this.findVehicleToTow(selectedVehicle);
                     }
-                    return;  // End the function to prevent calling performActions again
+                    return;  
                 case 'Wheelie':
                     if (selectedVehicle instanceof Motorbike) {
                         selectedVehicle.wheelie();
@@ -220,10 +220,10 @@ class Cli {
                     break;
                 case 'Select or create another vehicle':
                     this.startCli();
-                    return;  // End the function to prevent calling performActions again
+                    return;  
                 case 'Exit':
                     this.exit = true;
-                    return;  // End the function to prevent calling performActions again
+                    return;  
             }
 
             if (!this.exit) {
