@@ -29,7 +29,6 @@ class Motorbike extends Vehicle {
     wheelie() {
         console.log(`Motorbike ${this.make} ${this.model} is doing a wheelieeeeeeeeeeeee!`);
     }
-
     printDetails() {
         super.printDetails();
         console.log(`VIN: ${this.vin}`);
@@ -43,5 +42,5 @@ class Motorbike extends Vehicle {
         console.log(`Rear Wheel: ${this.wheels[1].getDiameter} inch with a ${this.wheels[1].getTireBrand} tire`);
     }
 }
-
+// Export the Motorbike class as the default export
 export default Motorbike;
