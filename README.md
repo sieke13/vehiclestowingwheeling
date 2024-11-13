@@ -33,7 +33,7 @@ npm test
 > check the video walkthrough
 
 > [!IMPORTANT]
-> link to youtube pending
+> link to youtube https://www.youtube.com/watch?v=3oqYZT8vQoU
 
 > [!WARNING]
 > none
@@ -46,4 +46,4 @@ This project is licensed under the MIT license.
 
 ## Questions
 For any questions, reach out via GitHub: [sieke13](https://github.com/sieke13)  
-Or send an email to: [private@private.com]
+Or send an email to: [gera.ave2@gmail.com]
